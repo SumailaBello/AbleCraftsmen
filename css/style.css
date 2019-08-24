@@ -52,6 +52,11 @@ p#about{
     margin-top: 10px;
 }
 
+/* human test input */
+#answer{
+    width: 18%;
+}
+
 @media(max-width: 991px){
     ul li a{
         margin-left: 0px;

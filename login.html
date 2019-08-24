@@ -24,11 +24,11 @@
    
     <div class="flex-center flex-column container">
 
-    <p class="bg-danger text-light p-1 d-none" id="status"></p>
+    <strong><p class="bg-danger text-light p-1 mb-2 d-none animated fadeIn" id="status"></p></strong>
     <!-- Material form login -->
 <div class="card bg-dark login animated bounceInUp">
 
-        <h5 class="card-header primary-color white-text text-center py-4">
+        <h5 class="card-header primary-color white-text text-center py-3">
           <strong>Login</strong>
         </h5>
       
@@ -63,7 +63,12 @@
                 <a href="">Forgot password?</a>
               </div>
             </div>
-      
+            
+            <div class="">
+                <div><strong>Human Test:</strong> </div>
+                <span id="question"></span> = <input class="w-2" type="text" id="answer">
+            </div>
+
             <!-- Login button -->
             <button class="btn btn-primary btn-rounded btn-block my-4 waves-effect z-depth-0" type="submit" onclick="validateLoginForm()">Login</button>
       
@@ -99,7 +104,7 @@
       <!-- Material form register -->
 <div class="card register bg-dark animated bounceInUp">
 
-        <h5 class="card-header primary-color white-text text-center py-4">
+        <h5 class="card-header primary-color white-text text-center py-3">
             <strong>Register</strong>
         </h5>
     
